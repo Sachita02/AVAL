@@ -1,0 +1,109 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fafafa; /* Soft off-white background */
+  color: #333; /* Dark text for contrast */
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Navbar Styles */
+header {
+  background-color: #FF6F61; /* Warm Coral color for the header */
+  padding: 1rem 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav .logo {
+  width: 150px;
+}
+
+/* Section Styles */
+section {
+  padding: 50px 0;
+  text-align: center;
+  background-color: #fff; /* White background for content sections */
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #2C3E50; /* Deep Blue color for headings */
+}
+
+section p {
+  font-size: 1.2rem;
+  color: #555; /* Slightly lighter text for paragraphs */
+}
+
+/* Add some box-shadow for sections to add depth */
+section {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #4CAF50; /* Vibrant Green color for footer */
+  padding: 20px 0;
+  text-align: center;
+  color: white;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  margin-top: 40px; /* Ensures footer stays at the bottom */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+
+  section {
+    padding: 30px 0;
+  }
+
+  section h2 {
+    font-size: 1.5rem;
+  }
+
+  section p {
+    font-size: 1rem;
+  }
+}
